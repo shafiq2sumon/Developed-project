@@ -1,4 +1,5 @@
 /* Nav CSS Starts */
+body { overflow-y: scroll; overflow-x: hidden; }
 .navbar-default {
     background-color: #000000;
     border-color: #000000;
