@@ -1,5 +1,4 @@
 /* Nav CSS Starts */
-body { overflow-y: scroll; overflow-x: hidden; }
 .navbar-default {
     background-color: #000000;
     border-color: #000000;
@@ -86,6 +85,9 @@ a:focus, a:hover{
     background: #fff;
     max-height: 500px;
     
+}
+img{
+    width: 100%;
 }
 
 .h1, h1 {
