@@ -1,0 +1,145 @@
+/* Nav CSS Starts */
+.navbar-default {
+    background-color: #000000;
+    border-color: #000000;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    background-color: coral;
+    color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover{
+    color: red;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+    background-color: coral;
+    color: #fff;
+}
+.dropdown-menu{
+    padding: 0px 0px;
+}
+.dropdown-menu > li > a{
+    color: #333;
+    border-bottom: 1px solid #cccccc;
+    padding: 15px 15px;
+}
+.dropdown-menu > li > a:hover{
+    background: coral;
+    color: #fff;
+}
+.dropdown-menu > li:last-child a{
+    border-bottom: none;
+}
+.navbar {
+    border-radius: 0px;
+}
+/* Nav CSS Ends */
+
+/* Slider Starts*/
+.slider{
+    margin-top: -20px;
+}
+.nav{
+    padding-left: 15px;
+}
+/* Accordion */
+a:focus, a:hover{
+    text-decoration: none;
+}
+.panel-default > .panel-heading {
+    background-color: #382A29;
+    border-color: #ddd;
+    color: #fff;
+}
+.panel-group .panel {
+    border-radius: 0px;
+   
+}
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #ddd;
+    text-align: justify;
+}
+.carousel-indicators .active {
+    background-color: yellow;
+    height: 12px;
+    margin: 0;
+    width: 12px;
+}
+.panel-title a {
+    display: block;
+}
+.panel-title a:after{
+    content: "";
+    font: 25px fontawesome;
+    color: yellow;
+    float: right;
+}
+.panel-title a.collapsed:after{
+    content: "";
+    font: 25px fontawesome;
+}
+#portfolio{
+    background: #fff;
+    max-height: 500px;
+    
+}
+
+.h1, h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+#about{
+    color: #030303;
+    padding:110px 0;
+   
+}
+.about-top h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 36px;
+}
+.about-top p{
+    font-size: 16px;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+.about-content{}
+.about-icon i{
+    font-size: 35px;
+
+}
+    
+    
+.about-icon h2{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.about-icon p{
+    font-size: 14px;
+    text-align: justify;
+}
+.about-icon:hover i,
+.about-icon:hover h2{
+    color: #87d37c;
+}
+/*--footer--*/
+.footer{
+    min-height: 70px;
+    background: black;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
