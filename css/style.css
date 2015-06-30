@@ -130,14 +130,53 @@ img{
 .about-icon:hover h2{
     color: #87d37c;
 }
+/*--Form--*/
+.contact_bg_img{
+    background-image: url(../images/background_img.jpg)
+}
+.contact_top{padding: 80px}
+.contact_top h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.contact_top p{
+   color: #fff; 
+}
+.btn-submit {
+   background: #9F603F;
+    display: block;
+    margin-left: 130px;
+    padding: 12px;
+    width: 50%;
+}
+.btn-submit:hover{
+    background: #431B0F;
+    color: #fff;
+}
+.form-group{
+    margin-bottom: 30px;
+}
+.form-control {
+    border-color: rgba(255, 255, 255, 0.1);;
+    box-shadow: none;
+    height: 50px;
+}
+.text{
+    color: #fff;
+    line-height: 30px;
+    text-align: justify;
+}
+
 /*--footer--*/
-.footer{
-    min-height: 70px;
+.footer_area{ 
     background: black;
+    min-height: 50px;
+}
+.footer{
     color: #fff;
     text-align: center;
-    margin-top: 20px;
-    border-radius: 5px;
+    margin-top: 15px;
 }
 
 
