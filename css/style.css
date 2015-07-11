@@ -82,19 +82,25 @@ a:focus, a:hover{
     content: "";
     font: 25px fontawesome;
 }
+/* Portfolio */
 #portfolio{
     background: #fff;
-    max-height: 500px;
+    max-height: 639px;
     
 }
 img{
     width: 100%;
 }
 
-.h1, h1 {
+.h1, h1{
     font-size: 36px;
     font-weight: bold;
 }
+.portimg-area{
+    margin-bottom:30px;
+}
+
+/* About-section*/
 #about{
     color: #030303;
     padding:110px 0;
