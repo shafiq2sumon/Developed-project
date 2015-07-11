@@ -100,6 +100,47 @@ img{
 .portimg-area{
     margin-bottom:30px;
 }
+/*Overlay-part*/
+.about-icon{
+    position: relative;
+    overflow: hidden;
+}
+.about-overlay{
+    position: absolute;
+    background:rgba(0,0,0,.5);
+    height: 100%;
+    width: 100%;
+    top:-100%; 
+    transition: .5s;
+}
+.about-icon:hover .about-overlay{
+    top: 0;
+}
+.about-icon-overlay{
+    position: absolute;
+    bottom: -100%;
+    left: 35%;
+    transition: .5s;
+    
+}
+.about-icon-overlay i{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    font-size: 15px;
+    line-height: 42px;
+    color: #fff;
+}
+.about-icon:hover .about-icon-overlay{
+    bottom: 40%;
+}
+.about-icon-overlay i:hover{
+    background-color: #87d37c;
+    border: 1px solid #87d37c;
+}
+
+
 
 /* About-section*/
 #about{
