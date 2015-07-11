@@ -101,11 +101,11 @@ img{
     margin-bottom:30px;
 }
 /*Overlay-part*/
-.about-icon{
+.portimg-area{
     position: relative;
     overflow: hidden;
 }
-.about-overlay{
+.portimg-overlay{
     position: absolute;
     background:rgba(0,0,0,.5);
     height: 100%;
@@ -113,17 +113,17 @@ img{
     top:-100%; 
     transition: .5s;
 }
-.about-icon:hover .about-overlay{
+.portimg-area:hover .portimg-overlay{
     top: 0;
 }
-.about-icon-overlay{
+.portimg-icon-overlay{
     position: absolute;
     bottom: -100%;
     left: 35%;
     transition: .5s;
     
 }
-.about-icon-overlay i{
+.portimg-overlay i{
     width: 40px;
     height: 40px;
     border: 1px solid #fff;
@@ -132,10 +132,10 @@ img{
     line-height: 42px;
     color: #fff;
 }
-.about-icon:hover .about-icon-overlay{
+.portimg-area:hover .portimg-icon-overlay{
     bottom: 40%;
 }
-.about-icon-overlay i:hover{
+.portimg-icon-overlay i:hover{
     background-color: #87d37c;
     border: 1px solid #87d37c;
 }
