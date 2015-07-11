@@ -85,7 +85,8 @@ a:focus, a:hover{
 /* Portfolio */
 #portfolio{
     background: #5D5F60;
-    max-height: 650px;
+    max-height: 750px;
+    padding:50px 0px;
     
 }
 img{
@@ -103,7 +104,7 @@ img{
 /* About-section*/
 #about{
     color: #030303;
-    padding:110px 0;
+    padding:70px 0;
    
 }
 .about-top h2{
